@@ -1,0 +1,28 @@
+'''
+6) 5 5 5 5 5   7) 5 4 3 2 1     8) e e e e e
+   4 4 4 4 4      5 4 3 2 1        d d d d d
+   3 3 3 3 3      5 4 3 2 1        c c c c c
+   2 2 2 2 2      5 4 3 2 1        b b b b b
+   1 1 1 1 1      5 4 3 2 1        a a a a a 
+
+'''
+# 6
+for row in range(5, 0, -1):
+    for col in range(5,0, -1):
+        print(row, end=" ")
+    print()
+print()
+
+# 7
+for row in range(5, 0, -1):
+    for col in range(5,0, -1):
+        print(col, end=" ")
+    print()
+print()
+
+# 8
+for row in range(5, 0, -1):
+    for col in range(5,0, -1):
+        print(chr(row+96), end=" ")
+    print()
+print()
