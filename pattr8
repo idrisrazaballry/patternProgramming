@@ -1,0 +1,20 @@
+'''
+a 
+a b 
+a b c 
+a b c d 
+a b c d e 
+
+5 
+5 4 
+5 4 3 
+5 4 3 2 
+5 4 3 2 1 
+
+e 
+e d 
+e d c 
+e d c b 
+e d c b a 
+
+'''
