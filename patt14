@@ -28,3 +28,16 @@ for row in range(n):
     * *
     *
 '''
+# 31
+n=int(input("Enter : "))
+for row in range(n):
+
+    # start loop
+    for star in range(n-row):
+        print("*", end=" ")
+
+    # space loop
+    # for spc in range(row):
+    #     print(" ", end=" ")
+    print()
+print()
