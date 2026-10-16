@@ -36,11 +36,4 @@ for row in range(n, 0, -1):
     print()
 print()
 
-# 13
-n=5
-for row in range(n, 0, -1):
-    for col in range(n, 0, -1):
-        if row<=col:
-            print(chr(col+96), end=" ")
-    print()
-print()
+
