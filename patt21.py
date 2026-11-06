@@ -1,15 +1,4 @@
-'''
-*        *
-**      **
-***    ***
-****  ****
-**********
-**********
-****  ****
-***    ***
-**      **
-*        *
-'''
+
 def print_butterfly(n):
     # Upper half of the butterfly
     for i in range(1, n + 1):
